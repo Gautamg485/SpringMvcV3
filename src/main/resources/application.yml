@@ -1,0 +1,17 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          facebook:
+            client-id: 454789412174339
+            client-secret: 531d72c3214ec68eb8b486f6aaa6ea5b
+            scope:
+            - email
+            - public_profile
+  mvc:
+    view:
+      prefix: WEB-INF/jsp/
+      suffix: .jsp
+  application:
+    name: SpringMvcV3
